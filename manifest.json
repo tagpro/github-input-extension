@@ -1,0 +1,11 @@
+{
+    "name": "Github input expander",
+    "description": "Expand your input fields in github",
+    "version": "1.0",
+    "manifest_version": 3,
+    "content_scripts": [{
+        "css": ["styles.css"],
+
+        "matches": ["https://github.com/*"]
+      }]
+  }
